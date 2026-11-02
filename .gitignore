@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+client/dist/
+server/public/
+
+# Environment files (never commit secrets)
+.env
+.env.*
+!.env.example
+!**/.env.example
+!**/.env.production.example
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Test and coverage
+coverage/
+.nyc_output/
+.mongodb-binaries/
+.submission-staging/
+
+# Local npm/tool caches used by the sandboxed build
+.npm-cache/
+.tmp/
+.tools/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Submission artifacts
+*.zip
